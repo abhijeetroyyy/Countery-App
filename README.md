@@ -1,8 +1,19 @@
-# React + Vite
+# Countery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Countery App is a simple web application built using React that allows users to view details about countries from all around the world. It fetches country data through a public API and displays essential information such as the country's name, capital, population, languages, and flags.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View a list of countries with their details.
+- Search for countries by name.
+- Filter countries by region.
+- Display details such as population, capital, and official languages.
+- Responsive design for a seamless experience across devices.
+
+## Tech Stack
+
+- **Frontend**: React
+- **State Management**: React's `useState` and `useEffect` hooks
+- **API**: Rest Countries API
+- **Styling**: CSS (or Tailwind CSS, if you prefer)
+
